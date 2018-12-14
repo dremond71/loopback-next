@@ -1,4 +1,7 @@
 {
+  "rulesDirectory": [
+    "tslint-consistent-codestyle"
+  ],
   // See https://palantir.github.io/tslint/rules/
   "rules": {
     // These rules find errors related to TypeScript features.
@@ -20,6 +23,7 @@
     "no-shadowed-variable": true,
     "no-string-throw": true,
     "no-unused-expression": true,
+    "no-unused": [true, "ignore-parameters"],
     "no-var-keyword": true,
     "triple-equals": [true, "allow-null-check", "allow-undefined-check"]
   }
